@@ -1,0 +1,21 @@
+body {
+     box-sizing: border-box;
+     background-color: rgba(31, 194, 172, 0.589);
+}
+
+.contenedor {
+     max-width: 1000px;
+     margin: 0 auto;
+}
+
+h2 {
+     flex: 0 1 100%;
+}
+img {
+     max-width: 100%;
+}
+
+.contenido-principal {
+     display: flex;
+     flex-wrap: wrap;
+}
