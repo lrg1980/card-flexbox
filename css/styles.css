@@ -22,7 +22,6 @@ img {
      max-width: 100%;
 }
 
-
 @media screen and  (min-width: 480px) {
      .contenido-principal {
           display: flex;
@@ -38,4 +37,28 @@ img {
      .entrada{
           flex: 0 1 calc( 33% - 1rem) ;
      }
+}
+.entrada{
+     margin-bottom: 1rem;
+}
+.contenido {
+     background-color: white;
+     text-align: center;
+     padding: 1rem;
+     text-transform: uppercase;
+}
+.contenido span {
+     color: #db00db;
+}
+.contenido h3{
+     font-size: 1rem;
+     line-height: 1.4rem;
+}
+.boton {
+     background-color: #008fd1;
+     color: white;
+     padding: .6rem 2rem;
+     margin-top: 1rem;
+     display: block;
+     text-decoration: none;
 }
